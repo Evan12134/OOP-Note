@@ -11,7 +11,7 @@ class Chinese:
     def hello_ay(self):
         print('你好')
 
-def intro(lan):
+def intro(lan): #question：why do we need this defined function
     lan.hello_ay()
 
 heyoi = French()
@@ -19,3 +19,5 @@ heyof = Chinese()
 intro(heyoi) #Output 'Bonjour'
 intro(heyof) #Output '你好'
 
+3. Extra Source:
+https://www.geeksforgeeks.org/polymorphism-in-python/
